@@ -1,0 +1,11 @@
+<p>Имя пользователя: {{userName}}</p>
+<p>Возраст пользователя: {{userAge}}</p>
+<hr>
+<button (click)="change(true)">+</button>
+<button (click)="change(false)">-</button>
+
+<hr>
+<p>counter: {{counter}}</p>
+<hr>
+<ng-content></ng-content>
+<button (click)="changeTwo()">Изменить</button>
